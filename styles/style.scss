@@ -1,0 +1,154 @@
+// top
+
+/* -------------------------------- 
+Font
+-------------------------------- */
+$font1: 'Montserrat', sans-serif;
+$font2: 'Lato', sans-serif;
+$font3: 'Libre Baskerville', serif;
+
+/* -------------------------------- 
+ Color Palette
+-------------------------------- */
+//Background Color 
+$bgColor-1: #fff;  			//white
+$bgColor-2: #070707;		//black
+$bgColor-3: #ffea00; 		//yellow
+$bgColor-4: #C24E3D; 		//red
+
+// Colors
+$color-1: #fff;				//white
+$color-2: #686b71;			//grey
+$color-3: #ffea00;			//yellow
+
+// btn Colors
+$btncolor-1: #323232;		//dark brown
+$btncolor-2: #534747;  		//med brown
+$btncolor-3: #534747;   	//light brown
+$btncolor-4: #cbbeaa;		//tan brown
+$btncolor-5: #e6e3de;		//off white
+$btncolor-6: #ffffff;		//white
+
+/* -------------------------------- 
+Imports
+-------------------------------- */
+@import "setup";
+@import "nav";
+@import "main";
+@import "portfolio";
+@import "contact";
+@import "footer";
+
+/* -------------------------------- 
+Primary style
+-------------------------------- */
+body {
+	background: url(../images/background3.jpg) no-repeat fixed center;
+	background-size: 100% 100%;
+	font-family: $font2;
+	letter-spacing: 1px;
+	color: $color-1;
+}
+
+.wrapper {
+	border-radius: 3px;
+}
+
+h1, h2, h3, h4, h5 {
+	font-style: $font1;
+	font-weight: 300;
+	font-size: 20px;	
+	line-height: 1em;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-weight: 600;
+}
+
+h3 {
+	font-family: $font3;
+	text-transform: none;
+	font-style: italic;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+	color: $color-1;
+}
+
+
+li {
+	list-style: none;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+
+// /* -------------------------------- 
+// Modules - reusable parts of our design
+// -------------------------------- */
+// .cd-container {
+//   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+//   width: 90%;
+//   max-width: 1170px;
+//   margin: 0 auto;
+// }
+// .cd-container::after {
+//   /* clearfix */
+//   content: '';
+//   display: table;
+//   clear: both;
+// }
+
+// /* -------------------------------- 
+
+// Main components 
+
+// -------------------------------- */
+
+// #cd-timeline {
+//   position: relative;
+//   padding: 2em 0;
+//   margin-top: 2em;
+//   margin-bottom: 2em;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Resolution targeting */
+/* Portrait tablet and small desktops */
+			// @media (max-width: 940px) {
+			// 	body {
+			// 		background:green;
+			// 	}
+			// }
+			 
+			// /* Landscape phone to portrait tablet */
+			// @media (max-width: 768px) {
+			// 	body {
+			// 		background:red;
+			// 	}
+			// }
+			 
+			// /* Landscape phones and down */
+			// @media (max-width: 480px) {
+			// 	body {
+			// 		background:yellow;
+			// 	}
+			// }
